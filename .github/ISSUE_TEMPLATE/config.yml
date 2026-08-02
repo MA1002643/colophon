@@ -1,8 +1,8 @@
 blank_issues_enabled: true
 contact_links:
   - name: 📚 Documentation
-    url: https://github.com/MA1002643/article-server-full-stack-blogging-platform#readme
+    url: https://github.com/MA1002643/colophon#readme
     about: Please check the documentation before opening an issue.
   - name: 💬 Discussions
-    url: https://github.com/MA1002643/article-server-full-stack-blogging-platform/discussions
+    url: https://github.com/MA1002643/colophon/discussions
     about: Use discussions for ideas, questions, or general feedback.

@@ -1,13 +1,13 @@
 # Contributing Guide
 
-Thanks for your interest in contributing to **article-server-full-stack-blogging-platform** 🎉  
+Thanks for your interest in contributing to **colophon** 🎉  
 We welcome issues, feature requests, bug reports, and pull requests.
 
 ## Table of Contents
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
-- [Article Server — Community & Issue Hub](#article--server---community--issue-hub)
+- [Colophon — Community & Issue Hub](#article--server---community--issue-hub)
   - [Purpose](#purpose)
   - [How to Contribute](#how-to-contribute)
     - [Reporting an Issue](#reporting-an-issue)
@@ -31,13 +31,13 @@ Please read and follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## 🧭 Getting Started
 
-- **💬 [Join the Discussions](https://github.com/MA1002643/article-server-full-stack-blogging-platform/discussions)**: Share your insights, provide feedback, or ask questions about Vevox.
-- **🐛 [Report Issues](https://github.com/MA1002643/article-server-full-stack-blogging-platform/issues)**: Submit bugs found or log feature requests for the `article-server-full-stack-blogging-platform` project.
-- **💡 [Submit Pull Requests](https://github.com/MA1002643/article-server-full-stack-blogging-platform/pulls)**: Review open PRs, and submit your own PRs.
+- **💬 [Join the Discussions](https://github.com/MA1002643/colophon/discussions)**: Share your insights, provide feedback, or ask questions about Vevox.
+- **🐛 [Report Issues](https://github.com/MA1002643/colophon/issues)**: Submit bugs found or log feature requests for the `colophon` project.
+- **💡 [Submit Pull Requests](https://github.com/MA1002643/colophon/pulls)**: Review open PRs, and submit your own PRs.
 
 <a id="article--server---community--issue-hub"></a>
 
-## 🗂️ Article Server — Community & Issue Hub
+## 🗂️ Colophon — Community & Issue Hub
 
 This project welcomes community feedback and feature suggestions.
 
@@ -47,9 +47,9 @@ This project welcomes community feedback and feature suggestions.
 
 This repository serves as a community space to:
 
-- Report bugs and unexpected behaviours in article server
+- Report bugs and unexpected behaviours in Colophon
 - Request new features or improvements
-- Propose integrations or ideas for extending Article Server (for example: MCP-style adapters, plugins, or example integrations)
+- Propose integrations or ideas for extending Colophon (for example: MCP-style adapters, plugins, or example integrations)
 - Track the status of reported issues and feature requests
 
 <a id="how-to-contribute"></a>
@@ -60,7 +60,7 @@ This repository serves as a community space to:
 
 #### 🐞 Reporting an Issue
 
-1. Open the Bug Report form: [Create a Bug Report](https://github.com/MA1002643/article-server-full-stack-blogging-platform/issues/new?assignees=&labels=bug%2C+needs+triage&template=bug_report.yml&title=%5BUG%5D+)
+1. Open the Bug Report form: [Create a Bug Report](https://github.com/MA1002643/colophon/issues/new?assignees=&labels=bug%2C+needs+triage&template=bug_report.yml&title=%5BUG%5D+)
 2. Choose the appropriate template (Bug Report or Feature Request)
 3. Provide as much detail as possible:
    - Steps to reproduce
@@ -73,11 +73,11 @@ This repository serves as a community space to:
 
 #### ✨ Requesting a New Feature
 
-1. Open the Feature Request form: [Create a Feature Request](https://github.com/MA1002643/article-server-full-stack-blogging-platform/issues/new?assignees=&labels=enhancement%2C+idea&template=feature_request.yml&title=%5BFEATURE%5D+)
+1. Open the Feature Request form: [Create a Feature Request](https://github.com/MA1002643/colophon/issues/new?assignees=&labels=enhancement%2C+idea&template=feature_request.yml&title=%5BFEATURE%5D+)
 2. Use the Feature Request template
 3. Describe clearly:
    - The feature you'd like to see
-   - Why it would be valuable for Article Server users
+   - Why it would be valuable for Colophon users
    - Any design/implementation ideas or trade-offs
 
 <a id="proposing-an-integration-or-extension"></a>
@@ -106,7 +106,7 @@ We use labels to indicate issue state. Common labels include:
 
 ## 🙌 Contributing Guide
 
-Thanks for considering contributing to Article Server! Below is a short, friendly guide to make it easy for first-time contributors.
+Thanks for considering contributing to Colophon! Below is a short, friendly guide to make it easy for first-time contributors.
 
 <a id="what-you-can-contribute"></a>
 
@@ -125,12 +125,12 @@ Thanks for considering contributing to Article Server! Below is a short, friendl
 
 1. Fork the repository using the GitHub web UI.
 
-- Navigate to: https://github.com/MA1002643/article-server-full-stack-blogging-platform and click Fork.
+- Navigate to: https://github.com/MA1002643/colophon and click Fork.
 
 2. Clone your fork and install dependencies:
    ```bash
-   git clone https://github.com/<your-username>/article-server-full-stack-blogging-platform.git
-   cd article-server-full-stack-blogging-platform
+   git clone https://github.com/<your-username>/colophon.git
+   cd colophon
    npm install
    ```
 3. Create a new branch with a descriptive name:

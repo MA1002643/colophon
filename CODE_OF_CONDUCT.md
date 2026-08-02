@@ -1,6 +1,6 @@
 # Contributor Covenant Code of Conduct
 
-_This Code of Conduct applies to the **[article-server-full-stack-blogging-platform](https://github.com/MA1002643/article-server-full-stack-blogging-platform)** project and all related community spaces._
+_This Code of Conduct applies to the **[colophon](https://github.com/MA1002643/colophon)** project and all related community spaces._
 
 ## Our Pledge
 

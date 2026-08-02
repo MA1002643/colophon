@@ -1,6 +1,6 @@
 # Security Policy
 
-We take security seriously for **article-server-full-stack-blogging-platform**.
+We take security seriously for **colophon**.
 
 ## Supported Versions
 
