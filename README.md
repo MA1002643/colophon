@@ -3,22 +3,22 @@
 <!-- HEADER STYLE: CLASSIC -->
 <div align="center">
 
-<h1 align="center">ARTICLE-SERVER-FULL-STACK-BLOGGING-PLATFORM</h1>
+<h1 align="center">COLOPHON</h1>
 <p align="center"><em>Empowering Creators, Inspiring Readers, Unleashing Ideas</em></p>
 
 <!-- BADGES -->
-<a href="https://github.com/MA1002643/article-server-full-stack-blogging-platform/blob/main/LICENSE" alt="license">
+<a href="https://github.com/MA1002643/colophon/blob/main/LICENSE" alt="license">
    <img src="https://img.shields.io/badge/license-MIT-green?style=flat&logo=opensourceinitiative&logoColor=white" alt="MIT License" />
 </a>
-<img src="https://img.shields.io/github/last-commit/MA1002643/article-server-full-stack-blogging-platform?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
-<a href="https://github.com/MA1002643/article-server-full-stack-blogging-platform/discussions" alt="Discussions">
-   <img src="https://img.shields.io/github/discussions/MA1002643/article-server-full-stack-blogging-platform" alt="Discussions" />
+<img src="https://img.shields.io/github/last-commit/MA1002643/colophon?style=flat&logo=git&logoColor=white&color=0080ff" alt="last-commit">
+<a href="https://github.com/MA1002643/colophon/discussions" alt="Discussions">
+   <img src="https://img.shields.io/github/discussions/MA1002643/colophon" alt="Discussions" />
 </a>
-<a href="https://github.com/MA1002643/article-server-full-stack-blogging-platform/stargazers">
-   <img src="https://custom-icon-badges.demolab.com/github/stars/MA1002643/article-server-full-stack-blogging-platform?logo=star&style=flat" alt="stars" />
+<a href="https://github.com/MA1002643/colophon/stargazers">
+   <img src="https://custom-icon-badges.demolab.com/github/stars/MA1002643/colophon?logo=star&style=flat" alt="stars" />
 </a>
-<a href="https://github.com/MA1002643/article-server-full-stack-blogging-platform/issues">
-   <img src="https://custom-icon-badges.demolab.com/github/issues-raw/MA1002643/article-server-full-stack-blogging-platform?logo=issue" alt="issues" />
+<a href="https://github.com/MA1002643/colophon/issues">
+   <img src="https://custom-icon-badges.demolab.com/github/issues-raw/MA1002643/colophon?logo=issue" alt="issues" />
 </a>
 <br>
 <br>
@@ -78,7 +78,7 @@
 
 ## ✨ Overview
 
-**article-server-full-stack-blogging-platform** is an open-source project featuring a **Vue 3 + Vite** frontend and a **Node.js + Express** backend. The repository provides a clear full-stack structure for building, testing, and running blogging-style applications using a modern JavaScript ecosystem.
+**Colophon** is an open-source publishing platform featuring a **Vue 3 + Vite** frontend and a **Node.js + Express** backend. The repository provides a clear full-stack structure for building, testing, and running blogging-style applications using a modern JavaScript ecosystem.
 
 ### 📚 Summary
 
@@ -125,7 +125,7 @@
 ## 📁 Project Structure
 
 ```sh
-└── article-server-full-stack-blogging-platform/
+└── colophon/
 ├── Article Server Backend/
 │   ├── app/
 │   │   ├── controllers/
@@ -196,7 +196,7 @@
 ### 📑 Project Index
 
 <details open>
-   <summary><b>ARTICLE-SERVER-FULL-STACK-BLOGGING-PLATFORM/</b></summary>
+   <summary><b>COLOPHON/</b></summary>
    <details>
       <summary><b>__root__</b></summary>
       <ul>
@@ -405,18 +405,18 @@ This project requires the following dependencies:
 
 ### ⚙️ Installation
 
-Build article-server-full-stack-blogging-platform from the source and install dependencies:
+Build colophon from the source and install dependencies:
 
 1. **Clone the repository:**
 
    ```sh
-   ❯ git clone https://github.com/MA1002643/article-server-full-stack-blogging-platform
+   ❯ git clone https://github.com/MA1002643/colophon
    ```
 
 2. **Navigate to the project directory:**
 
    ```sh
-   ❯ cd article-server-full-stack-blogging-platform
+   ❯ cd colophon
    ```
 
 3. **Install the dependencies:**
@@ -441,7 +441,7 @@ npm start
 
 ### 🧪 Testing
 
-Article-server-full-stack-blogging-platform uses the {**test_framework**} test framework. Run the test suite with:
+Colophon uses the **Mocha + Chai (chai-http)** test framework for its backend contract tests. Run the test suite with:
 
 **Using [npm](https://www.npmjs.com/):**
 
@@ -506,7 +506,7 @@ npm test
 
 ## 📜 License
 
-This project is licensed under the **[MIT License](https://github.com/MA1002643/article-server-full-stack-blogging-platform/blob/main/LICENSE)**. See the **[LICENSE](https://choosealicense.com/licenses/)** file for full details.
+This project is licensed under the **[MIT License](https://github.com/MA1002643/colophon/blob/main/LICENSE)**. See the **[LICENSE](https://choosealicense.com/licenses/)** file for full details.
 
 #
 
