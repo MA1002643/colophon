@@ -148,6 +148,14 @@
 │   ├── package.json
 │   ├── README.md
 │   └── server.js
+├── docs/
+│   ├── adr/
+│   │   ├── 0001-cross-platform-shared-codebase-strategy.md
+│   │   ├── 0002-hosting-database-and-cost-model.md
+│   │   └── 0003-ai-cloud-architecture.md
+│   └── audit/
+│       ├── codebase-audit.md
+│       └── migration-path.md
 ├── frontend-app/
 │   ├── vue-project/
 │   │   ├── src/
