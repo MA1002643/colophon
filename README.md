@@ -196,7 +196,7 @@
 ### 📑 Project Index
 
 <details open>
-   <summary><b>ARTICLE-SERVER-FULL-STACK-BLOGGING-PLATFORM/</b></summary>
+   <summary><b>COLOPHON/</b></summary>
    <details>
       <summary><b>__root__</b></summary>
       <ul>
