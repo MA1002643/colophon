@@ -316,6 +316,25 @@
    </details>
 
    <details>
+      <summary><b>docs</b></summary>
+      <details>
+         <summary><b>adr</b></summary>
+      <ul>
+         <li><b><a href="docs/adr/0001-cross-platform-shared-codebase-strategy.md">0001-cross-platform-shared-codebase-strategy.md</a></b> — File.</li>
+         <li><b><a href="docs/adr/0002-hosting-database-and-cost-model.md">0002-hosting-database-and-cost-model.md</a></b> — File.</li>
+         <li><b><a href="docs/adr/0003-ai-cloud-architecture.md">0003-ai-cloud-architecture.md</a></b> — File.</li>
+      </ul>
+      </details>
+      <details>
+         <summary><b>audit</b></summary>
+      <ul>
+         <li><b><a href="docs/audit/codebase-audit.md">codebase-audit.md</a></b> — File.</li>
+         <li><b><a href="docs/audit/migration-path.md">migration-path.md</a></b> — File.</li>
+      </ul>
+      </details>
+   </details>
+
+   <details>
       <summary><b>frontend-app</b></summary>
       <ul>
          <li><b><a href="frontend-app/package-lock.json">package-lock.json</a></b> — Lockfile with exact dependency versions.</li>
