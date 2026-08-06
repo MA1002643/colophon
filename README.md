@@ -126,7 +126,7 @@
 
 ```sh
 └── colophon/
-├── Article Server Backend/
+├── backend/
 │   ├── app/
 │   │   ├── controllers/
 │   │   │   ├── articles.controllers.js
@@ -254,70 +254,70 @@
    </details>
 
    <details>
-      <summary><b>Article Server Backend</b></summary>
+      <summary><b>backend</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/database.js">database.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/db.sqlite">db.sqlite</a></b> — File.</li>
-         <li><b><a href="Article Server Backend/package-lock.json">package-lock.json</a></b> — Lockfile with exact dependency versions.</li>
-         <li><b><a href="Article Server Backend/package.json">package.json</a></b> — Npm manifest (dependencies & scripts).</li>
-         <li><b><a href="Article Server Backend/README.md">README.md</a></b> — Project documentation, overview and setup instructions.</li>
-         <li><b><a href="Article Server Backend/server.js">server.js</a></b> — Server-side JavaScript.</li>
+         <li><b><a href="backend/database.js">database.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/db.sqlite">db.sqlite</a></b> — File.</li>
+         <li><b><a href="backend/package-lock.json">package-lock.json</a></b> — Lockfile with exact dependency versions.</li>
+         <li><b><a href="backend/package.json">package.json</a></b> — Npm manifest (dependencies & scripts).</li>
+         <li><b><a href="backend/README.md">README.md</a></b> — Project documentation, overview and setup instructions.</li>
+         <li><b><a href="backend/server.js">server.js</a></b> — Server-side JavaScript.</li>
       </ul>
       <details>
          <summary><b>app</b></summary>
       <details>
          <summary><b>controllers</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/app/controllers/articles.controllers.js">articles.controllers.js</a></b> — WebSocket-related JavaScript.</li>
-         <li><b><a href="Article Server Backend/app/controllers/comments.controllers.js">comments.controllers.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/app/controllers/user.controllers.js">user.controllers.js</a></b> — WebSocket-related JavaScript.</li>
+         <li><b><a href="backend/app/controllers/articles.controllers.js">articles.controllers.js</a></b> — WebSocket-related JavaScript.</li>
+         <li><b><a href="backend/app/controllers/comments.controllers.js">comments.controllers.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/controllers/user.controllers.js">user.controllers.js</a></b> — WebSocket-related JavaScript.</li>
       </ul>
       </details>
       <details>
          <summary><b>lib</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/app/lib/authentication.js">authentication.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/lib/authentication.js">authentication.js</a></b> — JavaScript file.</li>
       </ul>
       </details>
       <details>
          <summary><b>models</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/app/models/articles.models.js">articles.models.js</a></b> — WebSocket-related JavaScript.</li>
-         <li><b><a href="Article Server Backend/app/models/comments.models.js">comments.models.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/app/models/user.models.js">user.models.js</a></b> — WebSocket-related JavaScript.</li>
+         <li><b><a href="backend/app/models/articles.models.js">articles.models.js</a></b> — WebSocket-related JavaScript.</li>
+         <li><b><a href="backend/app/models/comments.models.js">comments.models.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/models/user.models.js">user.models.js</a></b> — WebSocket-related JavaScript.</li>
       </ul>
       </details>
       <details>
          <summary><b>routes</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/app/routes/articles.routes.js">articles.routes.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/app/routes/comments.routes.js">comments.routes.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/app/routes/user.routes.js">user.routes.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/routes/articles.routes.js">articles.routes.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/routes/comments.routes.js">comments.routes.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/app/routes/user.routes.js">user.routes.js</a></b> — JavaScript file.</li>
       </ul>
       </details>
       </details>
       <details>
          <summary><b>tests</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/tests/test.a.database.refresh.js">test.a.database.refresh.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.b.users.creation.js">test.b.users.creation.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.c.users.retrieval.js">test.c.users.retrieval.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.d.users.login.and.logout.js">test.d.users.login.and.logout.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.e.articles.creation.js">test.e.articles.creation.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.f.articles.retrieval.js">test.f.articles.retrieval.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.g.articles.edit.and.delete.js">test.g.articles.edit.and.delete.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.i.comments.creation.js">test.i.comments.creation.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.j.comments.retrieval.js">test.j.comments.retrieval.js</a></b> — JavaScript file.</li>
-         <li><b><a href="Article Server Backend/tests/test.k.comments.delete.js">test.k.comments.delete.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.a.database.refresh.js">test.a.database.refresh.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.b.users.creation.js">test.b.users.creation.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.c.users.retrieval.js">test.c.users.retrieval.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.d.users.login.and.logout.js">test.d.users.login.and.logout.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.e.articles.creation.js">test.e.articles.creation.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.f.articles.retrieval.js">test.f.articles.retrieval.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.g.articles.edit.and.delete.js">test.g.articles.edit.and.delete.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.i.comments.creation.js">test.i.comments.creation.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.j.comments.retrieval.js">test.j.comments.retrieval.js</a></b> — JavaScript file.</li>
+         <li><b><a href="backend/tests/test.k.comments.delete.js">test.k.comments.delete.js</a></b> — JavaScript file.</li>
       </ul>
       <details>
          <summary><b>data</b></summary>
       <ul>
-         <li><b><a href="Article Server Backend/tests/data/mock_articles_bad.json">mock_articles_bad.json</a></b> — File.</li>
-         <li><b><a href="Article Server Backend/tests/data/mock_articles_good.json">mock_articles_good.json</a></b> — File.</li>
-         <li><b><a href="Article Server Backend/tests/data/mock_comments_good.json">mock_comments_good.json</a></b> — File.</li>
-         <li><b><a href="Article Server Backend/tests/data/mock_users_bad.json">mock_users_bad.json</a></b> — File.</li>
-         <li><b><a href="Article Server Backend/tests/data/mock_users_good.json">mock_users_good.json</a></b> — File.</li>
+         <li><b><a href="backend/tests/data/mock_articles_bad.json">mock_articles_bad.json</a></b> — File.</li>
+         <li><b><a href="backend/tests/data/mock_articles_good.json">mock_articles_good.json</a></b> — File.</li>
+         <li><b><a href="backend/tests/data/mock_comments_good.json">mock_comments_good.json</a></b> — File.</li>
+         <li><b><a href="backend/tests/data/mock_users_bad.json">mock_users_bad.json</a></b> — File.</li>
+         <li><b><a href="backend/tests/data/mock_users_good.json">mock_users_good.json</a></b> — File.</li>
       </ul>
       </details>
       </details>
