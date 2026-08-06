@@ -1,4 +1,4 @@
-# Codebase Audit — Article Server
+# Codebase Audit — Colophon
 
 **Date:** 2026-08-02 · **Auditor:** Claude Code · **Commit:** `7e7ddf6`
 **Status:** Baseline for all subsequent architecture decisions (brief §2.5). Every ADR and issue in this programme references this document.
@@ -11,15 +11,15 @@ The project brief describes "the existing static website". **That description is
 
 | Layer | Location | Stack |
 |---|---|---|
-| REST API | `Article Server Backend/` | Node.js, Express 4, SQLite3, Joi, PBKDF2 auth, Mocha/Chai tests |
+| REST API | `backend/` | Node.js, Express 4, SQLite3, Joi, PBKDF2 auth, Mocha/Chai tests |
 | Web client | `frontend-app/vue-project/` | Vue 3 (Options API), Vite 7, vue-router 4, Bootstrap 5 |
 | Automation | `.github/` | CI workflow, README auto-update workflows, issue templates, CODEOWNERS |
 
-The backend originated as university assignment starter code ("Blog Engine Starter Code, full-stack web development assignment 22/23" — `Article Server Backend/README.md`); the model/controller implementations and the entire Vue client are the owner's work. There is **no deployed environment**: the client calls `http://localhost:3333` (hard-coded in all three service files), so "the site remains live" in the migration plan means *locally runnable at every stage* plus a first real deployment as an early milestone.
+The backend originated as university assignment starter code ("Blog Engine Starter Code, full-stack web development assignment 22/23" — the original `backend/README.md`, preserved in git history at commit `7e7ddf6`); the model/controller implementations and the entire Vue client are the owner's work. There is **no deployed environment**: the client calls `http://localhost:3333` (hard-coded in all three service files), so "the site remains live" in the migration plan means *locally runnable at every stage* plus a first real deployment as an early milestone.
 
 ## 2. Inventory
 
-### 2.1 Backend — `Article Server Backend/` (14 source files + 10 test files)
+### 2.1 Backend — `backend/` (14 source files + 10 test files)
 
 | File | Purpose |
 |---|---|
@@ -87,7 +87,7 @@ Severity: ● critical · ◐ major · ○ minor. Each becomes (part of) a track
 | D18 | ● | `.github/workflows/ci.yml:11` | CI runs `npm ci` at the repo **root, where no `package.json` exists — every PR check fails**. Tests also need a running server + fresh DB, which the workflow never starts. |
 | D19 | ◐ | git history | `db.sqlite` (126 KB, contains admin hash+salt) tracked in git; `screencast.mp4` (21 MB) in history; `.gitignore` added later so the DB remains tracked. |
 | D20 | ◐ | `README.md` | Claims features that do not exist: tags, markdown/WYSIWYG editor, JWT, RBAC roles, Axios, dotenv, `.env.example`, ESLint, screenshots. Misleads contributors and any future audit. |
-| D21 | ○ | `Article Server Backend/package.json` | Test/dev tooling in `dependencies`; no `start` script; `body-parser` redundant (Express ≥4.16 built-ins). |
+| D21 | ○ | `backend/package.json` | Test/dev tooling in `dependencies`; no `start` script; `body-parser` redundant (Express ≥4.16 built-ins). |
 | D22 | ◐ | `comments.routes.js` | Anonymous, unauthenticated, un-rate-limited comment POST — spam/abuse vector; `bad-words` filter is English-only and trivially bypassed. |
 
 ## 6. Keep / Refactor / Replace

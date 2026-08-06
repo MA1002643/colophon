@@ -1,6 +1,11 @@
-# vue-project
+# Colophon — Web Client
 
-This template should help get you started developing with Vue 3 in Vite.
+The Vue 3 front end for Colophon, built with Vite and Bootstrap 5.
+
+## Requirements
+
+- **Node.js 20+**
+- The [Colophon backend](../../backend/README.md) running on `http://localhost:3333` — the service modules in `src/Services/` call that address directly, so the client shows empty or failing views without it.
 
 ## Recommended IDE Setup
 
@@ -22,8 +27,12 @@ npm install
 npm run dev
 ```
 
+Vite serves on `http://localhost:5173` by default.
+
 ### Compile and Minify for Production
 
 ```sh
 npm run build
 ```
+
+Output goes to `dist/`. Preview the built bundle with `npm run preview`.

@@ -7,7 +7,7 @@ We welcome issues, feature requests, bug reports, and pull requests.
 
 - [Code of Conduct](#code-of-conduct)
 - [Getting Started](#getting-started)
-- [Colophon — Community & Issue Hub](#article--server---community--issue-hub)
+- [Colophon — Community & Issue Hub](#colophon---community--issue-hub)
   - [Purpose](#purpose)
   - [How to Contribute](#how-to-contribute)
     - [Reporting an Issue](#reporting-an-issue)
@@ -31,11 +31,11 @@ Please read and follow our [CODE_OF_CONDUCT.md](CODE_OF_CONDUCT.md).
 
 ## 🧭 Getting Started
 
-- **💬 [Join the Discussions](https://github.com/MA1002643/colophon/discussions)**: Share your insights, provide feedback, or ask questions about Vevox.
+- **💬 [Join the Discussions](https://github.com/MA1002643/colophon/discussions)**: Share your insights, provide feedback, or ask questions about Colophon.
 - **🐛 [Report Issues](https://github.com/MA1002643/colophon/issues)**: Submit bugs found or log feature requests for the `colophon` project.
 - **💡 [Submit Pull Requests](https://github.com/MA1002643/colophon/pulls)**: Review open PRs, and submit your own PRs.
 
-<a id="article--server---community--issue-hub"></a>
+<a id="colophon---community--issue-hub"></a>
 
 ## 🗂️ Colophon — Community & Issue Hub
 
